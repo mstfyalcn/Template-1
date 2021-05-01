@@ -1,0 +1,274 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>İlk Bootstrap Projem</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-width=1,user-scalable=no">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="main.css">
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+
+<body>
+	<div class="container-fluid menu">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a href="index.html" class="navbar-brand">introspect</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#icerik">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="#icerik">
+                <ul class="navbar-nav ml-auto">
+		                <li><a href="#" class="nav-link">MENÜ</a></li>
+		                <li><a href="#" class="nav-link">HAKKIMIZDA</a></li>
+		                <li><a href="#" class="nav-link">İLETİŞİM</a></li>
+		                <li><a href="#" class="nav-link">YARDIM</a></li>
+                </ul>
+			</div>
+
+		</nav>
+	</div>
+	<div class="container-fluid banner">
+		<div class="icerik">
+			<h1>BOOTSTRAP İLE RESPONSİVE TEMPLATE YAPIYORUM</h1>
+			<a href="#" class="btn btn-outline-light" >BAŞLAYIN</a>
+		</div>
+	</div>
+	<section class="container bolum1">
+		<h2>BOOTSTRAP ÇOK ZEVKLİ</h2>
+		<p>
+			Bootstrap ile template'ler yapıp github hesabıma yüklüyorum. Oluşturduğum tasarımlarımı
+			projelerinize entegre edebilirsiniz. Bootstrap ile template'ler yapıp github hesabıma yüklüyorum. Oluşturduğum tasarımlarımı
+			projelerinize entegre edebilirsiniz. Bootstrap ile template'ler yapıp github hesabıma yüklüyorum. Oluşturduğum tasarımlarımı
+			projelerinize entegre edebilirsiniz .
+		</p>
+		<a href="#" class="btn btn-outline-danger">DAHA FAZLA</a>
+	</section>
+	<section class="container-fluid bolum2">
+		<div class="row">
+			<div class="col-md-6">
+				<h3>AKILLI SAAT</h3>
+				<img src="images/pic01.jpg" alt="Saat Resmi">
+				<p>
+					Akıllı saat bir bilgisayar sistemi ile entegre edilmiş kol saatidir.
+
+					Akıllı saat şu aşamada giyilebilir teknoloji ürünlerinin en iyisi olarak bilinmektedir.
+
+					İlk modelleri basit hesap makinesi, çeviri ve oyun gibi ekstralara sahip olan akıllı saatlerin modern modelleri daha çok giyilebilen bilgisayarlar olarak tanımlanmaktadır.
+				</p>
+			</div>
+			<div class="col-md-6">
+				<h3>DAKTİLO</h3>
+				<img src="images/pic02.jpg" alt="Daktilo">
+				<p>
+					Daktilo, bir klavye aracılığıyla harekete getirilen harfleri mürekkepli bir sistem yardımıyla kağıda basarak yazı yazan makine.
+
+					1829'da ABD'de William Austin Burt(en) tarafından ilk kez patenti almıştır. Tipograf adı verilen bu makine elden daha yavaş yazıyordu. 1801 yılında ise İtalya'da Pellegrino Turri tarafından bir daktilo yapılmıştır.
+				</p>
+			</div>
+		</div>
+	</section>
+	<div class="container bolum3">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card shadow mb-2">
+					<i class="fas fa-laptop"></i>
+					<div class="card-body">
+						<h5 class="d-flex justify-content-center ">TEMPUS FEUGIAT</h5>
+						<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem ullamcorper laoreet, lectus arcu.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#" class="btn btn-outline-danger">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow mb-2">
+					<i class="faS fa-tablet"></i>
+					<div class="card-body">
+						<h5 class="d-flex justify-content-center ">TEMPUS FEUGIAT</h5>
+						<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem ullamcorper laoreet, lectus arcu.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#" class="btn btn-outline-danger">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex align-items-stretch">
+				<div class="card shadow">
+					<i class="fas fa-mobile"></i>
+					<div class="card-body">
+						<h5 class="d-flex justify-content-center ">TEMPUS FEUGIAT</h5>
+						<p>Morbi interdum mollis sapien. </p>
+						<div class="d-flex justify-content-center">
+							<a href="#" class="btn btn-outline-danger">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bolum4 pb-5">
+		<div class="container">
+			<h5>GET IN TOUCH</h5>
+			<div class="row mb-3">
+				<div class="col-md-6">
+					<label for="name">NAME</label>
+					<input type="text" id="name" class="form-control">
+				</div>
+				<div class="col-md-6">
+					<label for="email">EMAIL</label>
+					<input type="text" id="email" class="form-control">
+				</div>
+
+			</div>
+			<div class="row mb-3">
+				<div class="col">
+					<label for="message">MESSAGE</label>
+					<textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col">
+					<button class="btn btn-outline-light">SEND MESSAGE</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="container-fluid menu">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a href="index.html" class="navbar-brand">introspect</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#icerik">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="icerik">
+				<ul class="navbar-nav ml-auto">
+					<li><a href="#" class="nav-link">HOME</a></li>
+					<li><a href="#" class="nav-link">GENERIC</a></li>
+					<li><a href="#" class="nav-link">ELEMENTS</a></li>
+					<li><a href="#" class="nav-link">CONTACT US</a></li>
+				</ul>
+
+			</div>
+
+		</nav>
+	</div>
+	<div class="container-fluid banner">
+		<div class="icerik">
+			<h1>INTROSPECT: A FREE + FULLY RESPONSIVE SITE TEMPLATE BY TEMPLATED</h1>
+			<a href="#" class="btn btn-outline-light">GET STARTED</a>
+		</div>
+	</div>
+	<section class="container bolum1">
+		<h2>MAGNA ETIAM LOREM</h2>
+		<p>Suspendisse mauris. Fusce accumsan mollis eros. Pellentesque a diam sit amet mi ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet nibh viverra malesuada. Nunc sem lacus, accumsan quis, faucibus non, congue vel, arcu, erisque hendrerit tellus. Integer sagittis. Vivamus a mauris eget arcu gravida tristique. Nunc iaculis mi in ante.</p>
+		<a href="#" class="btn btn-outline-danger">LEARN MORE</a>
+	</section>
+	<section class="container-fluid bolum2">
+		<div class="row">
+			<div class="col-md-6">
+				<h3>PELLENTESQUE ADIPIS</h3>
+				<img src="images/pic01.jpg" alt="saat Resmi">
+				<p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
+			</div>
+			<div class="col-md-6">
+				<h3>MORBI INTERDUM MOL</h3>
+				<img src="images/pic02.jpg" alt="Daktilo">
+				<p>Cumsan mollis eros. Pellentesque a diam sit amet mi magna ullamcorper vehicula. Integer adipiscin sem. Nullam quis massa sit amet lorem ipsum feugiat tempus.</p>
+			</div>
+		</div>
+	</section>
+	<div class="container bolum3">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card shadow mb-2">
+					<i class="fas fa-laptop"></i>
+					<div class="card-body">
+						<h5 class="d-flex justify-content-center ">TEMPUS FEUGIAT</h5>
+						<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem ullamcorper laoreet, lectus arcu.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#" class="btn btn-outline-danger">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="card shadow mb-2">
+					<i class="far fa-gem"></i>
+					<div class="card-body">
+						<h5 class="d-flex justify-content-center ">TEMPUS FEUGIAT</h5>
+						<p>Morbi interdum mollis sapien. Sed ac risus. Phasellus lacinia, magna lorem ullamcorper laoreet, lectus arcu.</p>
+						<div class="d-flex justify-content-center">
+							<a href="#" class="btn btn-outline-danger">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4 d-flex align-items-stretch">
+				<div class="card shadow">
+					<i class="fas fa-laptop"></i>
+					<div class="card-body">
+						<h5 class="d-flex justify-content-center ">TEMPUS FEUGIAT</h5>
+						<p>Morbi interdum mollis sapien. </p>
+						<div class="d-flex justify-content-center">
+							<a href="#" class="btn btn-outline-danger">LEARN MORE</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bolum4 pb-5">
+		<div class="container">
+			<h5>GET IN TOUCH</h5>
+			<div class="row mb-3">
+				<div class="col-md-6">
+					<label for="name">NAME</label>
+					<input type="text" id="name" class="form-control">
+				</div>
+				<div class="col-md-6">
+					<label for="email">EMAIL</label>
+					<input type="text" id="email" class="form-control">
+				</div>
+
+			</div>
+			<div class="row mb-3">
+				<div class="col">
+					<label for="message">MESSAGE</label>
+					<textarea name="" id="message" cols="30" rows="10" class="form-control"></textarea>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col">
+					<button class="btn btn-outline-light">SEND MESSAGE</button>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<script src="bootstrap/js/jquery-3.5.1.min.js"></script>
+	<script src="bootstrap/js/popper.min.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
